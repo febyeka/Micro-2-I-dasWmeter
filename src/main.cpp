@@ -314,11 +314,11 @@ void loop()
     lcd.setCursor(1, 0);
     lcd.print("EMERGENCY BUTTON ON");
   }
-  // if (!emergency && idle)
-  // {
-  //   lcd.setCursor(5, 0);
-  //   lcd.print("i-DasWmeter");
-  // }
+  if (!emergency && idle)
+  {
+    lcd.setCursor(5, 0);
+    lcd.print("i-DasWmeter");
+  }
   if (keep == 1 && idle == 1)
   {
     staticLat = latitude;
