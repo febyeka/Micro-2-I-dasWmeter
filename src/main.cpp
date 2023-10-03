@@ -483,6 +483,7 @@ void loop()
         lcd.setCursor(centerInput, 1);
         lcd.print(key);
         // lcd.print(key);
+        // lcd.setcursor(1,4);
       }
       else if (key == 'N')
       {
